@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div>Регистрация студента</div>
+        <form action="form.php">
+        <label for="username">Фамилия</label>
+            <input type="text" name="username" id="username" required>
+        <br>
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name" required></form>
+        <br>
+        <label for="patronimyc">Отчество</label>
+        <input type="text" name="patronymic" id="patrinymic">
+        <br>
+        <label for="date">День рождения</label>
+        <input type="date" name="bithday">
+        <br>
+        <label for="year">Год поступления:</label>
+        <input type="month" name="year" id="year" required>
+        <br>
+        <label for="email" >e-mail</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="tel">Телефон</label>
+        <input type="tel" id="tel" >
+        <div class="info">
+            <div>Дополнительная информация</div>
+        <div> Увлечения</div>
+        <input id="basketball" type="checkbox" checked></input>
+        <label for="basketball">Баскетбол</label>
+        <br>
+        <input id="football" type="checkbox"></input>
+        <label for="football">Футбол</label>
+        <br>
+        <input id="programm" type="checkbox" checked></input>
+        <label for="programm">Программирование</label>
+        <br>
+        <div>Подписка на новости:</div>
+        <input type="radio" name="sub" id="yes" required>
+        <label for="yes">Хочу</label>
+        <br>
+        <input type="radio" name="sub" id="som">
+        <label for="som">Редко</label>
+        <br>
+        <input type="radio" name="sub" id="no">
+        <label for="no">Не Хочу</label>
+        <br>
+        <label>Факультативы:</label>
+        <br>
+        <select name="elective">
+            <option value="Русский">Русский</option>
+            <option value="Немецкий">Немецкий</option>
+            </select>
+            <br>
+        <label for="file">Анкета:</label>
+        <br>
+        <input type="file" name="file" id="file">
+        <br>
+        </div>
+        <input type="submit">
+
+        </form>
+        </body>
